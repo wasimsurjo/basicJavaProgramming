@@ -1,0 +1,10 @@
+class AnimalList{
+  private Animal{} list= new Animal[5];
+  private i=0;
+  
+  public void add(Animal a){
+    if (i<list.length){
+    list[i]=a;
+    System.out.println("Animal Added At Index "+i);
+    i++;
+}
